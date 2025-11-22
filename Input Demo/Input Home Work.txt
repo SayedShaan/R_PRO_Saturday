@@ -1,0 +1,5 @@
+WAP In R to accept Celsius and convert into fahrenheit
+WAP in R to accept meter from user and convert into kilometer and centimerters
+WAP in R to accept three subject marks from user and display percentage
+WAP in R to accept three number and display average 
+WAP in R to calculate area of circle  
