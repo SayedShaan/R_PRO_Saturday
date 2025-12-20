@@ -1,0 +1,83 @@
+WAP in R to accept basic salary from user and calculate gross salary 
+Basic Salary>=20000 then HRA= 60%, DA= 70%
+Basic Salary>=15000 then HRA= 65%, DA= 75%
+Basic Salary>=10000 then HRA= 70%, DA= 80%
+Basic Salary<=10000 then HRA= 80%, DA= 90%
+
+Gross salary = Basic Salary + HRA +DA
+
+# Read basic salary from user
+basic_salary <- as.numeric(readline("Enter Basic Salary: "))
+
+# Initialize HRA and DA
+hra <- 0
+da <- 0
+
+# Calculate HRA and DA based on conditions
+if (basic_salary >= 20000) {
+  hra <- basic_salary * 0.60
+  da <- basic_salary * 0.70
+} else if (basic_salary >= 15000) {
+  hra <- basic_salary * 0.65
+  da <- basic_salary * 0.75
+} else if (basic_salary >= 10000) {
+  hra <- basic_salary * 0.70
+  da <- basic_salary * 0.80
+} else {
+  hra <- basic_salary * 0.80
+  da <- basic_salary * 0.90
+}
+
+# Calculate gross salary
+gross_salary <- basic_salary + hra + da
+
+# Print the gross salary
+cat("The Gross Salary is:", gross_salary, "\n")
+
+
+
+
+
+
+WAP in R to accept percentage from user and print grade
+
+Per>=75 then Grade A
+Per>=65 then Grade B
+Per>=55 then Grade C
+Per>=45 then Grade D
+Per>=35 then Grade E
+Per< 35 then Grade F
+
+
+
+# Read percentage from the user
+percentage <- as.numeric(readline("Enter Percentage: "))
+
+# Initialize grade
+grade <- ""
+
+# Determine the grade based on percentage
+if (percentage >= 75) {
+  grade <- "A"
+} else if (percentage >= 65) {
+  grade <- "B"
+} else if (percentage >= 55) {
+  grade <- "C"
+} else if (percentage >= 45) {
+  grade <- "D"
+} else if (percentage >= 35) {
+  grade <- "E"
+} else {
+  grade <- "F"
+}
+
+# Print the grade
+cat("The Grade is:", grade, "\n")
+
+
+
+
+WAP in R to accept months number from the user and print months name 
+
+WAP in R to accept three subject marks from user and calculate percentage if 
+percentage>=50 then print pass else print fail 

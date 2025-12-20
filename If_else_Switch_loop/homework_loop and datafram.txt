@@ -1,0 +1,17 @@
+WAP in R to print 1 to n where n is user entered value
+WAP in R to print n to 1 where n is user entered value
+WAP in R to print all odd number between 1 to 10
+WAP in R to create following data fram .
+
+	Student 
+	-StudentId
+	-First_name 
+	-Last_name
+	-subject1
+	-subject2
+	-subject3
+
+	1)Create Full_name column
+	2)Create Total_marks column
+	3)Create percentage column
+	4)Create pass/fail column
