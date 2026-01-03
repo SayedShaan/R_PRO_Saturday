@@ -1,0 +1,9 @@
+#WAP to take email from user and check wheather it is valid or not 
+
+dovinstitute.sayed@gmail.com
+
+#First Email should contain alphabets or number or .
+#email should contain @
+#some alphabets
+#then .
+#some alphabets
